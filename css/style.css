@@ -1,0 +1,484 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0px;
+  padding: 0px;
+  color: white;
+  text-shadow: 2px 2px rgb(13, 65, 35);
+}
+.header {
+  display: flex;
+  background-color: rgb(18, 79, 66);
+  border: 1px solid white;
+  width: auto;
+  height: 8vh;
+}
+.container {
+  display: flex;
+  margin: 5px;
+}
+.paket1 {
+  display: flex;
+  margin: 0px;
+  text-align: center;
+}
+.paketic1 {
+  display: flex;
+  font-weight: bold;
+  text-align: center;
+  margin-left: 10px;
+  margin-right: 20px;
+  font-size: 15px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.paketic1 img {
+  width: 45px;
+  height: 45px;
+  margin: 5px;
+  border-left: 1px solid white;
+  padding-left: 5px;
+}
+.paketic2 {
+  display: flex;
+  font-size: 16px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.paketic2 img {
+  width: 45px;
+  height: 45px;
+  margin: 5px;
+  border-left: 1px solid white;
+  padding-left: 7px;
+}
+.paketic2 a {
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 14px;
+  margin-right: 10px;
+}
+.paket2 {
+  display: none;
+}
+.hero {
+  height: 80vh;
+  background-image: url(2.jpg);
+  background-size: cover;
+  background-position: center;
+  border: 1px solid white;
+}
+.zanimanje {
+  display: none;
+}
+.hamburger {
+  width: 50px;
+  height: 50px;
+  margin: 5px;
+  position: relative;
+  top: 10px;
+  left: 85%;
+  background-color: white;
+  border: 1px solid white;
+  border-radius: 30px;
+}
+.navigacioni a {
+  display: none;
+}
+.hero-text {
+  text-align: center;
+  font-weight: bold;
+}
+.hero-text h3 {
+  color: rgb(52, 236, 138);
+  padding: 0px;
+  font-size: 25px;
+  margin: 5px;
+  margin-top: 25%;
+}
+.hero-text h1 {
+  padding: 0px;
+  font-size: 45px;
+  margin: 5px;
+}
+.hero-text p {
+  font-size: 24px;
+  margin: 10px;
+  color: rgb(52, 236, 138);
+}
+#dugme-rezervacije {
+  color: white;
+  font-weight: bold;
+  background-color: rgb(18, 79, 66);
+  font-size: 18px;
+  border: 1px solid white;
+  border-radius: 30px;
+  padding: 15px;
+  margin-top: 15px;
+}
+#dugme-rezervacije:hover {
+  background-color: rgb(52, 236, 138);
+}
+.paket3 {
+  margin-top: 90px;
+  margin-left: 25%;
+  padding: 5px;
+}
+.footer {
+  display: flex;
+  background-color: rgb(18, 79, 66);
+  border: 1px solid white;
+  width: auto;
+  height: 11vh;
+}
+.footer-text {
+  display: none;
+}
+#footer-button {
+  color: white;
+  font-weight: bold;
+  background-color: rgb(18, 79, 66);
+  font-size: 18px;
+  border: 1px solid white;
+  border-radius: 40px;
+  padding: 15px;
+  margin: 20px;
+  position: absolute;
+  left: 35%;
+}
+#footer-button:hover {
+  background-color: rgb(52, 236, 138);
+}
+.hero2 {
+  height: 80vh;
+  background-image: url(1.jpg);
+  background-size: cover;
+  background-position: center;
+  border: 1px solid white;
+}
+.onama-carusel1 {
+  margin: 40px;
+  text-align: center;
+  padding: 10px;
+  font-size: 20px;
+}
+.onama-carusel1 p {
+  background-color: rgba(25, 158, 89, 0.404);
+  padding: 20px;
+}
+.galerija-kontejneri {
+  background-color: rgb(25, 158, 89);
+  width: auto;
+  height: auto;
+  padding: 1%;
+  margin: 0px;
+}
+.prvi {
+  text-align: center;
+  border: 7px solid rgb(83, 246, 197);
+  width: 350px;
+  height: 280px;
+  background-color: rgb(83, 246, 197);
+  margin: 13%;
+}
+.kontejneri-slike {
+  width: 350px;
+  height: 220px;
+}
+.kontejneri-dugme {
+  color: white;
+  font-weight: 1000;
+  background-color: rgb(13, 65, 35);
+  padding: 12px;
+  border-radius: 30px;
+  margin-top: 8px;
+  font-size: 12px;
+  border: 2px solid rgba(25, 158, 89);
+}
+.drugi {
+  text-align: center;
+  border: 7px solid rgb(13, 65, 35);
+  width: 350px;
+  height: 280px;
+  background-color: rgb(13, 65, 35);
+  margin: 13%;
+}
+.drugi .kontejneri-dugme {
+  background-color: rgb(83, 246, 197);
+}
+.treci {
+  text-align: center;
+  border: 7px solid rgb(83, 246, 197);
+  width: 350px;
+  height: 280px;
+  background-color: rgb(83, 246, 197);
+  margin: 13%;
+}
+.cetvrti {
+  text-align: center;
+  border: 7px solid rgb(13, 65, 35);
+  width: 350px;
+  height: 280px;
+  background-color: rgb(13, 65, 35);
+  margin: 13%;
+}
+.cetvrti .kontejneri-dugme {
+  background-color: rgb(83, 246, 197);
+}
+.peti {
+  text-align: center;
+  border: 7px solid rgb(83, 246, 197);
+  width: 350px;
+  height: 280px;
+  background-color: rgb(83, 246, 197);
+  margin: 13%;
+}
+.sesti {
+  text-align: center;
+  border: 7px solid rgb(13, 65, 35);
+  width: 350px;
+  height: 280px;
+  background-color: rgb(13, 65, 35);
+  margin: 13%;
+}
+.sesti .kontejneri-dugme {
+  background-color: rgb(83, 246, 197);
+}
+.kontejneri-dugme:hover {
+  background-color: rgb(33, 172, 87);
+}
+.main {
+  background-image: url("turniri.jpg");
+  background-size: cover;
+  background-position: center;
+  border: 1px solid white;
+}
+.tabele {
+  display: block;
+}
+.tabelica table {
+  width: 85%;
+  margin: 10% 6%;
+}
+.tabelica td,
+th,
+tr {
+  color: white;
+  font-weight: bold;
+  background-color: rgba(25, 158, 89, 0.404);
+  font-size: 22px;
+  text-align: center;
+  border: 1px solid white;
+  padding: 8px;
+}
+.tabelica tr:nth-child(even) {
+  background-color: rgb(11, 23, 17);
+}
+.main2 {
+  background-image: url("contact.jpg");
+  background-position: center;
+  background-size: cover;
+  border: 1px solid white;
+}
+@media screen and (min-width: 600px) {
+  .paket2 {
+    display: flex;
+    padding: 5px;
+  }
+  .paket2 img {
+    border-left: 1px solid white;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .paket3 {
+    display: none;
+  }
+  .hero-text {
+    text-align: left;
+    margin-left: 20%;
+  }
+  .hero-text h3 {
+    margin-top: 100px;
+    font-size: 30px;
+  }
+  .hero-text h1 {
+    font-size: 55px;
+    margin-top: 5px;
+  }
+  #dugme-rezervacije {
+    margin-top: 25px;
+    padding: 18px;
+    font-size: 20px;
+  }
+  #footer-button {
+    left: 40%;
+  }
+  .onama-carusel1 h1 {
+    text-align: left;
+    margin-left: 5%;
+    font-size: 40px;
+  }
+
+  .onama-carusel1 p {
+    text-align: left;
+    margin-left: 5%;
+    font-size: 25px;
+    margin-right: 5%;
+  }
+  .prvi,
+  .drugi,
+  .treci,
+  .cetvrti,
+  .peti,
+  .sesti {
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+  .tabelica table {
+    width: 75%;
+    margin: 8% 12%;
+  }
+}
+@media screen and (min-width: 768px) {
+  .zanimanje {
+    display: flex;
+    margin-left: 5%;
+    margin-top: 1%;
+    float: left;
+  }
+  .hamburger {
+    left: 50%;
+    margin-top: 2%;
+  }
+  .paket2 {
+    position: absolute;
+    left: 60%;
+  }
+  .paket1 {
+    position: absolute;
+    left: 5%;
+  }
+  .onama-carusel1 {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+
+  .prvi,
+  .drugi,
+  .treci,
+  .cetvrti,
+  .peti,
+  .sesti {
+    margin-left: 30%;
+  }
+  .tabelica table {
+    width: 65%;
+    margin: 10% 18%;
+  }
+}
+@media screen and (min-width: 992px) {
+  .paket1 {
+    left: 10%;
+  }
+  .paket2 {
+    left: 70%;
+  }
+  .hamburger {
+    display: none;
+  }
+  .navigacioni {
+    display: flex;
+    position: absolute;
+    left: 45%;
+  }
+  .navigacioni a {
+    display: flex;
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    padding: 7px;
+    margin-top: 5%;
+    text-align: right;
+    font-weight: bold;
+  }
+  .navigacioni a:hover {
+    color: rgb(93, 226, 149);
+    border-bottom: 1px solid rgb(93, 226, 149);
+  }
+  .hero-text h3 {
+    margin-top: 200px;
+  }
+  .footer-text {
+    display: flex;
+    font-weight: bold;
+    margin-left: 5%;
+    font-size: 23px;
+    padding: 10px;
+    text-align: center;
+  }
+  #footer-button {
+    left: 80%;
+    margin-left: 35px;
+  }
+
+  .onama-carusel1 h1 {
+    text-align: left;
+    margin-top: 2%;
+    margin-left: 20%;
+    font-size: 40px;
+  }
+
+  .onama-carusel1 p {
+    text-align: left;
+    margin-left: 15%;
+    margin-right: 15%;
+    font-size: 25px;
+  }
+  .zaglavlje {
+    display: flex;
+    display: relative;
+  }
+  .prvi,
+  .drugi,
+  .treci,
+  .cetvrti,
+  .peti,
+  .sesti {
+    display: block;
+    margin: 5%;
+  }
+  .tabelica {
+    width: 100%;
+    margin: 1%;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .navigacioni {
+    left: 55%;
+  }
+  .footer-text {
+    margin-left: 15%;
+  }
+  #footer-button {
+    left: 77%;
+  }
+
+  .prvi,
+  .drugi,
+  .treci,
+  .cetvrti,
+  .peti,
+  .sesti {
+    display: inline-block;
+    margin-left: 7%;
+    margin-top: 1%;
+    position: relative;
+  }
+  .tabelica table {
+    width: 80%;
+    margin: 3%;
+  }
+}
