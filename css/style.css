@@ -282,6 +282,81 @@ tr {
   background-size: cover;
   border: 1px solid white;
 }
+.kontakt-forma {
+  display: block;
+}
+.kontakt-forma h3 {
+  font-size: 30px;
+  text-align: center;
+  margin-left: 5%;
+}
+label {
+  font-size: 23px;
+  font-weight: bold;
+  display: block;
+  text-align: center;
+  margin-top: 4%;
+}
+input::placeholder {
+  color: white;
+  text-align: center;
+  padding: 4px;
+  font-style: italic;
+  font-weight: lighter;
+}
+input {
+  background-color: rgb(25, 158, 89);
+  margin-left: 23%;
+  width: 250px;
+  height: 30px;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  margin-top: 2%;
+  border: 2px solid white;
+  border-radius: 10px;
+}
+select {
+  background-color: rgb(25, 158, 89);
+  margin-left: 23%;
+  width: 255px;
+  height: 35px;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  margin-top: 2%;
+  border: 2px solid white;
+  border-radius: 10px;
+}
+textarea {
+  background-color: rgb(25, 158, 89);
+  margin-left: 17%;
+  width: 300px;
+  height: 120px;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  margin-top: 2%;
+  border: 2px solid white;
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 14px;
+}
+textarea::placeholder {
+  color: white;
+  padding-top: 9px;
+}
+#posalji {
+  margin-top: 8%;
+  margin-bottom: 8%;
+  height: 40px;
+  width: 100px;
+  margin-left: 40%;
+  font-size: 16px;
+}
+#posalji:hover {
+  background-color: rgb(38, 141, 120);
+}
 @media screen and (min-width: 600px) {
   .paket2 {
     display: flex;
@@ -340,6 +415,29 @@ tr {
     width: 75%;
     margin: 8% 12%;
   }
+    input {
+    margin-left: 27%;
+    width: 280px;
+    height: 30px;
+    font-size: 15px;
+  }
+  select {
+    margin-left: 27%;
+    width: 290px;
+    height: 40px;
+    font-size: 15px;
+  }
+  textarea {
+    margin-left: 25%;
+    height: 100px;
+    padding: 3px;
+  }
+  #posalji {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 43%;
+    font-size: 17px;
+  }
 }
 @media screen and (min-width: 768px) {
   .zanimanje {
@@ -376,6 +474,35 @@ tr {
   .tabelica table {
     width: 65%;
     margin: 10% 18%;
+  }
+    label {
+    margin-top: 2%;
+  }
+  input {
+    margin-left: 30%;
+    width: 300px;
+    height: 32px;
+    font-size: 15px;
+    margin-top: 1%;
+  }
+  select {
+    margin-left: 30%;
+    width: 300px;
+    height: 40px;
+    font-size: 17px;
+  }
+  textarea {
+    margin-left: 26%;
+    height: 100px;
+    width: 350px;
+    padding: 3px;
+  }
+  #posalji {
+    margin-top: 4%;
+    margin-bottom: 4%;
+    margin-left: 43%;
+    font-size: 18px;
+    padding: 10px;
   }
 }
 @media screen and (min-width: 992px) {
@@ -454,6 +581,42 @@ tr {
     width: 100%;
     margin: 1%;
   }
+  .main2 h3 {
+    margin-top: 3%;
+  }
+  label {
+    margin-top: 1%;
+  }
+  input {
+    margin-left: 32%;
+    width: 350px;
+    height: 32px;
+    font-size: 17px;
+    margin-top: 1%;
+  }
+  select {
+    margin-left: 32%;
+    width: 350px;
+    height: 40px;
+    font-size: 17px;
+    margin-top: 1%;
+  }
+  textarea {
+    margin-left: 30%;
+    height: 100px;
+    width: 380px;
+    padding: 3px;
+    margin-top: 1%;
+  }
+  #posalji {
+    margin-top: 3%;
+    margin-bottom: 4%;
+    margin-left: 44%;
+    font-size: 18px;
+    padding: 10px;
+    width: 100px;
+    height: 45px;
+  }
 }
 @media screen and (min-width: 1200px) {
   .navigacioni {
@@ -480,5 +643,47 @@ tr {
   .tabelica table {
     width: 80%;
     margin: 3%;
+  }
+    .main2 h3 {
+    text-align: left;
+    margin-top: 2%;
+    margin-bottom: 1%;
+    font-size: 30px;
+    margin-left: 15%;
+  }
+  label {
+    text-align: left;
+    margin-top: 1%;
+    margin-left: 15%;
+  }
+  input {
+    margin-left: 15%;
+    width: 380px;
+    height: 32px;
+    font-size: 17px;
+    margin-top: 1%;
+  }
+  select {
+    margin-left: 15%;
+    width: 380px;
+    height: 40px;
+    font-size: 17px;
+    margin-top: 1%;
+  }
+  textarea {
+    margin-left: 15%;
+    height: 100px;
+    width: 400px;
+    padding: 3px;
+    margin-top: 1%;
+  }
+  #posalji {
+    display: flex;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: 15%;
+    font-size: 18px;
+    width: 100px;
+    height: 45px;
   }
 }
